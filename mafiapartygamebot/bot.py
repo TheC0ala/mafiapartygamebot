@@ -125,7 +125,7 @@ def help(bot, update):
                     '/play - город зассыпает... \r\n'+
                     '/cancel - закончить игру')
 
-updater = Updater(token)
+updater = Updater(token="1594267025:AAGYW2ofk0Ca3GbWuD4wUWcYXwGATlK75xs")
 
 updater.dispatcher.add_handler(CommandHandler('new', new))
 updater.dispatcher.add_handler(CommandHandler('join', join))
